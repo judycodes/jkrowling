@@ -1,0 +1,205 @@
+html, body {
+  margin:0;
+  box-sizing: border-box;  
+   background-image: url("../img/hphallway.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;    
+}
+
+main {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page {
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    border:1px solid #000;
+    width:90%;
+    background-color:rgb(233, 236, 220);
+    border-radius:5px;
+}
+
+#pg_one {
+    margin:40px;
+}
+
+#pg_two {
+    margin:80px 0px 50px;
+}
+
+.left {
+    padding:10px;
+    border-right:3px solid #939393;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:60%; 
+}
+
+.right {
+    padding:20px;
+    width:40%;
+}
+
+.indent {
+    text-indent: 35px;
+}
+
+.turn_pg {
+    padding:10px;
+    margin-top: 20px;
+    font-family: 'Aleo', serif;
+}
+
+a {
+    text-decoration: none;
+    color: #B07A6D;
+}
+
+.pg_link {
+    font-size:50px;
+}
+
+h1 {
+    text-align:center;
+    
+    font-family: 'Gafata', sans-serif;
+}
+
+h3 {
+    text-align:center;
+    font-size:20px;
+    font-family: 'Gafata', sans-serif;
+}
+
+p, figcaption {
+    margin:5px;
+    padding:3px;
+    font-family: 'Aleo', serif;
+}
+
+#copyright {
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    margin:140px 20px 0px;
+    padding:120px 50px 10px;
+    width:70%;
+    box-sizing: border-box;
+}
+
+#title, #author {
+    font-size:35px;
+    font-variant: small-caps;
+}
+
+#coverpg {
+    text-align:center;
+    padding:60px;
+}
+
+#img-div {
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    width:100%;
+    margin:20px 0px;
+}
+
+#image {
+    min-width:40%;
+    max-width:50%;
+    height:auto;
+    border-radius: 40px;
+    border:5px solid #B07A6D;
+}
+
+#img-caption {
+    text-align:center;
+    margin:10px;
+}
+
+#prev_jump {
+    padding-bottom:20px;
+}
+
+#dedication {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+    padding:150px 10px;
+    width:45%;
+}
+
+#heading {
+    font-size:30px;
+}
+
+#tribute-info {
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#history, #impact {
+    padding: 0px 20px;
+    margin:10px;
+}
+
+#chap, #chap_title {
+    margin-bottom:10px;
+    font-size:30px;
+}
+
+/*media query*/
+@media only screen and (max-width: 800px) {
+
+.left {
+    display:none;}    
+
+#pg_one, #pg_two {
+    margin:20px 10px;
+}
+
+#coverpg {
+   padding:20px; 
+}
+
+#title, #author {
+    font-size:30px;
+}
+    
+.right {
+    padding:20px;
+    width:100%;
+}
+
+#img-caption {
+    font-size:15px;
+}
+
+.pg_link {
+    font-size:30px;
+}    
+    
+#tribute-info {
+    width:100%;
+    padding:10px;
+}
+
+#history, #impact {
+    padding: 0px 10px;
+    margin:10px;
+}
+
+
+}
